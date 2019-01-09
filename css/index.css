@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.container{
+    position: relative;
+    margin: 50px auto;
+    width: 318px;
+    height: 500px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.content{
+    /* 由于内容区要滑动 所以要设置absolute */
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 300px;
+    background: #ccc;
+}
+.right{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 18px;
+    height: 500px;
+    /* background: red; */
+}
+.ico{
+    width: 100%;
+    height: 18px;
+    background: black;
+}
+.scrollArea{
+    position: relative;
+    width: 100%;
+    height: 464px;
+    background: #fff;
+}
+.bar{
+    position: absolute;
+    top: 0;
+    /* left: 0; */
+    width: 100%;
+    background: #00456b; 
+}
